@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.5.0):
+    - GoogleMaps (= 2.5.0)
+    - GooglePlaces (= 2.5.0)
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - OneSignal (2.6.2)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SwiftLuhn (0.2.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - OneSignal (< 3.0, >= 2.5.2)
+  - SDWebImage (~> 4.0)
+  - SwiftLuhn
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlacePicker: 1573e644ab54564d95c2643edc0f29091609e966
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  OneSignal: 95127bce89b9e495079e7205e3d47c88590b5750
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SwiftLuhn: 05b38a0bd30b952d9b42b4c05ae7dd73431bcd3a
+
+PODFILE CHECKSUM: e4ec1349ed40763384466e6f400db9eaa79ba955
+
+COCOAPODS: 1.4.0
